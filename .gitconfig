@@ -1,0 +1,15 @@
+[user]
+	name = Gal
+	email = hyprwave@gmail.com
+[core]
+	editor = vim
+[push]
+        default = upstream 
+[merge]
+	tool = gvimdiff
+	conflictstyle = diff3
+[color]
+	ui = auto
+[alias]
+        g = log --graph --pretty=format:'%Cred%d %Cgreen%h%Creset %s %Cblue%cr'
+        ga = log --graph --pretty=format:'%Cred%d %Cgreen%h%Creset %s %Cblue%cr' --all
