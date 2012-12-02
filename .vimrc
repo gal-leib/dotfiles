@@ -14,6 +14,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic' 
 Bundle 'kien/ctrlp.vim'
+Bundle 'tomasr/molokai'
 
 syntax enable
 set encoding=utf-8
@@ -43,5 +44,4 @@ set t_Co=256
 set laststatus=2
 set mouse=a
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
-set background=dark
-colorscheme solarized
+colorscheme molokai
